@@ -1,6 +1,4 @@
-Here is your updated CSS with all blue colors changed to a cohesive palette of orange shades. All structure, layout, typography, and non-blue colors remain untouched:
 
-CSS
 * {
   box-sizing: border-box;
   margin: 0;
@@ -17,7 +15,7 @@ body {
 
 /* Header */
 header {
-  background-color: #9a3412; /* Dark burnt orange */
+  background-color: #9a3412; 
   color: #ffffff;
   padding: 2rem 1rem 1rem 1rem;
   text-align: center;
@@ -34,7 +32,7 @@ header p {
 }
 
 nav {
-  background-color: #431407; /* Very dark brownish-orange */
+  background-color: #431407; 
   text-align: center;
   padding: 0.75rem 0;
 }
@@ -48,7 +46,7 @@ nav a {
 }
 
 nav a:hover {
-  color: #fb923c; /* Bright hover orange */
+  color: #fb923c; 
   text-decoration: underline;
 }
 
@@ -72,7 +70,7 @@ h2 {
   color: #431407;
   font-size: 1.8rem;
   margin-bottom: 1rem;
-  border-bottom: 2px solid #fb923c; /* Bright orange border accent */
+  border-bottom: 2px solid #fb923c; 
   padding-bottom: 0.3rem;
 }
 
@@ -98,14 +96,14 @@ li {
 /* Resource Box Styling */
 .resource-box {
   background-color: #f1f5f9;
-  border-left: 4px solid #fb923c; /* Bright orange accent bar */
+  border-left: 4px solid #fb923c; 
   padding: 1rem 1.25rem;
   margin: 1rem 0;
 }
 
 /* Links & Buttons */
 a {
-  color: #ea580c; /* Vivid link orange */
+  color: #ea580c; 
   text-decoration: none;
 }
 
@@ -115,7 +113,7 @@ a:hover {
 
 .button-link {
   display: inline-block;
-  background-color: #ea580c; /* Vivid button orange */
+  background-color: #ea580c;
   color: #ffffff;
   padding: 0.6rem 1.2rem;
   border-radius: 4px;
@@ -124,7 +122,7 @@ a:hover {
 }
 
 .button-link:hover {
-  background-color: #c2410c; /* Darker orange on button hover */
+  background-color: #c2410c; 
   text-decoration: none;
 }
 
@@ -132,7 +130,7 @@ a:hover {
 footer {
   text-align: center;
   padding: 1.5rem;
-  background-color: #9a3412; /* Dark burnt orange */
+  background-color: #9a3412; 
   color: #ffedd5;
   font-size: 0.9rem;
   margin-top: 3rem;
