@@ -1,4 +1,6 @@
+Here is your updated CSS with all blue colors changed to a cohesive palette of orange shades. All structure, layout, typography, and non-blue colors remain untouched:
 
+CSS
 * {
   box-sizing: border-box;
   margin: 0;
@@ -15,7 +17,7 @@ body {
 
 /* Header */
 header {
-  background-color: #1e293b;
+  background-color: #9a3412; /* Dark burnt orange */
   color: #ffffff;
   padding: 2rem 1rem 1rem 1rem;
   text-align: center;
@@ -28,11 +30,11 @@ header h1 {
 
 header p {
   font-size: 1.1rem;
-  color: #cbd5e1;
+  color: #ffedd5;
 }
 
 nav {
-  background-color: #0f172a;
+  background-color: #431407; /* Very dark brownish-orange */
   text-align: center;
   padding: 0.75rem 0;
 }
@@ -46,7 +48,7 @@ nav a {
 }
 
 nav a:hover {
-  color: #38bdf8;
+  color: #fb923c; /* Bright hover orange */
   text-decoration: underline;
 }
 
@@ -67,15 +69,15 @@ section {
 }
 
 h2 {
-  color: #0f172a;
+  color: #431407;
   font-size: 1.8rem;
   margin-bottom: 1rem;
-  border-bottom: 2px solid #38bdf8;
+  border-bottom: 2px solid #fb923c; /* Bright orange border accent */
   padding-bottom: 0.3rem;
 }
 
 h3 {
-  color: #1e293b;
+  color: #9a3412;
   font-size: 1.3rem;
   margin: 1.5rem 0 0.5rem 0;
 }
@@ -96,14 +98,14 @@ li {
 /* Resource Box Styling */
 .resource-box {
   background-color: #f1f5f9;
-  border-left: 4px solid #38bdf8;
+  border-left: 4px solid #fb923c; /* Bright orange accent bar */
   padding: 1rem 1.25rem;
   margin: 1rem 0;
 }
 
 /* Links & Buttons */
 a {
-  color: #0284c7;
+  color: #ea580c; /* Vivid link orange */
   text-decoration: none;
 }
 
@@ -113,7 +115,7 @@ a:hover {
 
 .button-link {
   display: inline-block;
-  background-color: #0284c7;
+  background-color: #ea580c; /* Vivid button orange */
   color: #ffffff;
   padding: 0.6rem 1.2rem;
   border-radius: 4px;
@@ -122,7 +124,7 @@ a:hover {
 }
 
 .button-link:hover {
-  background-color: #0369a1;
+  background-color: #c2410c; /* Darker orange on button hover */
   text-decoration: none;
 }
 
@@ -130,8 +132,8 @@ a:hover {
 footer {
   text-align: center;
   padding: 1.5rem;
-  background-color: #1e293b;
-  color: #94a3b8;
+  background-color: #9a3412; /* Dark burnt orange */
+  color: #ffedd5;
   font-size: 0.9rem;
   margin-top: 3rem;
 }
