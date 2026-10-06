@@ -12,12 +12,65 @@
     <h1>Tech Heroes Profile</h1>
   </header>
 
+  <!--
+  Using semantic tags like header and nav to keep the document accessible and well-organized. This ensures screen 
+  readers can easily parse the primary navigation links to the other project pages. - PR 
+  -->
   <nav>
     <a href="index.html">Home</a>
     <a href="about.html">About Us</a>
     <a href="resource.html">Implicit Bias Guide</a>
     <a href="techhero.html">Tech Hero Profile</a>
   </nav>
+
+  <!-- 
+  Wrapped the core biography content in a main tag. I added a 'hero-image' class so we can handle the 
+  responsive max-width and border-radius securely in our external stylesheet. used border radius to give image a unique look - PR 
+  -->
+  <main>
+    <section>
+      <h2>Dr. Rediet Abebe</h2>
+      <!-- used some inline styles here to make sure the image stays responsive and fits the layout - PR -->
+      <img src="Rediet-Abebe.jpg" alt="Portrait of Dr. Rediet Abebe" class="hero-image">
+
+      <p>
+        Dr. Rediet Abebe is a computer scientist specializing in algorithms and artificial intelligence. She was born and raised in
+        Addis Ababa, Ethiopia. She is the first Black woman to earn a Ph.D. in Computer Science from Cornell! She is currently an assistant 
+        professor of computer science at the University of California, Berkeley. 
+      </p>
+      
+      <p>
+        She co-founded <a href="https://www.md4sg.com/" target="_blank">Mechanism Design for Social Good (MD4SG)</a> alongside Kira Goldner in 2016.
+        The goals of MD4SG is to use algorithms and mechanism design to tackle inequality. Her work with MD4SG had her honored as a pioneer in the 
+        2019 MIT Technology Review's Innovators Under 35. She also co-founded <a href="https://blackinai.github.io/" target="_blank">Black in AI</a>, 
+        a network of 1,500 researchers working on AI, with Timnit Gebru, in 2016.
+      </p>
+    </section>
+    <!-- 
+    Added a dedicated resource-box div to show her various organizations. The anchor tags use target="_blank", so the 
+    external links open in a new tab. This is good because it preventing users from losing their place on our site. They can
+    easily navigate back to our site after exploring the great work of Dr. Rediet Abebe - PR 
+    -->
+    <div class="resource-box">
+      <h3>Explore Dr. Abebe's Work</h3>
+      <p>Learn more about her projects and research through these resources:</p>
+      <ul>
+        <li>
+          <strong>Mechanism Design for Social Good:</strong> 
+          <a href="https://www.md4sg.com/" target="_blank">Visit the MD4SG Initiative</a>
+        </li>
+        <li>
+          <strong>Black in AI:</strong> 
+          <a href="https://blackinai.org/" target="_blank">Discover the Black in AI Network</a>
+        </li>
+        <li>
+          <strong>Academic Portfolio:</strong> 
+          <a href="https://www.cs.cornell.edu/~red/" target="_blank">View Publications and Research</a>
+        </li>
+      </ul>
+    </div>
+
+  </main>
 
   
 </body>

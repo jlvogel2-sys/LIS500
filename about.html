@@ -31,11 +31,10 @@
     </section>
 
     <!-- 
-    For my section of the About Us page, I used the <section> tag to keep my info logically separated from other content. 
-    This keeps the site structured, readable, and accessible. I included several <img> tags representing my hobbies and my tech hero. 
-    I used inline CSS styling for the max-width and height properties to make sure the images scale and stay in the main container.
-    I used the <h2> tag for my name to maintain a heading hierarchy.  PR 
-      -->
+    For my section, I used semantic tags like <section> and <h2> to keep the document accessible and well-structured. 
+    I wrapped my images in an 'image-gallery' div. This lets us use Flexbox in our external stylesheet to create a clean, 
+    responsive grid. - PR 
+    -->
     <section>
       <h2>Plangkat Rinkam</h2>
       <p>Hello everyone, my name is Plangkat. I am a senior studying Computer Science and 
@@ -43,10 +42,12 @@
         deepen my understanding on how different identities have been involved throughout 
         the development of the tech industry. My favorite "tech thing" is the smartphone. My personal
         tech hero is Nirav Patel, the CEO of Framework.</p>
-        <img src="fifa_ball.png" alt="The official FIFA 2026 world cup ball" style="max-width: 30%; height: auto;">
-        <img src="metaphor.png" alt="Logo of the game 'Metaphor Re;Fantazio" style="max-width: 50%; height: auto;">
-        <img src="severance.png" alt="Severance show fan graphic" style="max-width: 50%; height: auto;">
-        <img src="nirav_patel.webp" alt="Nirav Patel holding a framework laptop" style="max-width: 40%; height: auto;">
+        <div class="image-gallery">
+          <img src="fifa_ball.png" alt="The official FIFA 2026 world cup ball">
+          <img src="metaphor.png" alt="Logo of the game 'Metaphor Re;Fantazio">
+          <img src="severance.png" alt="Severance show fan graphic">
+          <img src="nirav_patel.webp" alt="Nirav Patel holding a framework laptop">
+        </div>
     </section>
   </main>
 
