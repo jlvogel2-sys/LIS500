@@ -40,7 +40,7 @@ header .subtitle {
   margin-top: 1rem;
 }
 
-/* Small centered circular image - JV */
+/* Small centered circular image. in addition since there are other rules about photos including the "!important allows these style changes to take priority- JV */
 .circle-logo {
   width: 90px !important;
   height: 90px !important;
