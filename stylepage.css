@@ -41,11 +41,11 @@ header .subtitle {
   margin-top: 1rem;
 }
 
-/* Small centered circular image. in addition since there are other rules about photos including the "!important allows these style changes to take priority- JV */
+/* centered circular image on the welcome page. JV */
 .circle-logo {
-  width: 90px !important;
-  height: 90px !important;
-  border-radius: 50% !important;
+  width: 400px;
+  height: 400px;
+  border-radius: 75%;
   object-fit: cover;
   border: 3px solid #ffedd5;
   display: block;
