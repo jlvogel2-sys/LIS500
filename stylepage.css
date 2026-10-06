@@ -52,6 +52,15 @@ header .subtitle {
   display: block;
   margin: 1rem auto 0 auto;
 }
+/* Interactive hover effect for the circular logo JV */
+.circle-logo {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.circle-logo:hover {
+  transform: scale(1.03);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+}
 
 nav {
   background-color: #431407; 
