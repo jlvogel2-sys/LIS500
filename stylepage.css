@@ -79,7 +79,6 @@ main {
   padding: 0 1.5rem;
 }
 
-/* Sections & Cards - JV */
 section {
   background-color: #ffffff;
   border-radius: 8px;
@@ -115,7 +114,7 @@ li {
   margin-bottom: 0.5rem;
 }
 
-/* Resource Box Styling - JV */
+/* ensures we have consistent proflie pics by inputing into css style intsead of html - JV */
 .profile-pic {
   width: 130px;
   height: 130px;
@@ -147,7 +146,7 @@ li {
   border-radius: 0 8px 8px 0;
 }
 
-/* Links & Buttons - JV */
+/* Links and Buttons - JV */
 a {
   color: #ea580c; 
   text-decoration: none;
@@ -209,8 +208,8 @@ footer {
 
 /* Author Profile Card Styling for Patricia Hill Collins - JV */
 .author-pic {
-  width: 120px;
-  height: 120px;
+  width: 200px;
+  height: 200px;
   border-radius: 50%;
   object-fit: cover;
   border: 3px solid #fb923c;
@@ -218,7 +217,7 @@ footer {
   margin: 0 auto 1rem auto;
 }
 
-/* Side-by-side alignment on larger displays - JV */
+/* alignment on larger displays - JV */
 @media (min-width: 600px) {
   .author-card {
     display: flex;
