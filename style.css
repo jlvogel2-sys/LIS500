@@ -180,3 +180,27 @@ footer {
   font-size: 0.9rem;
   margin-top: 3rem;
 }
+/* Author Profile Card Styling for Patricia Hill Collins - JV */
+.author-pic {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #fb923c;
+  display: block;
+  margin: 0 auto 1rem auto;
+}
+/* Side-by-side alignment on larger displays - JV */
+@media (min-width: 600px) {
+  .author-card {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    margin-top: 1rem;
+  }
+
+  .author-card .author-pic {
+    margin: 0;
+    flex-shrink: 0;
+  }
+}
