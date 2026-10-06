@@ -4,6 +4,7 @@
   margin: 0;
   padding: 0;
 }
+
 /* This is just a neutral light background for accessibility and a readable typography. - JV */
 body {
   font-family: Arial, Helvetica, sans-serif;
@@ -13,11 +14,7 @@ body {
   padding: 0;
 }
 
-<<<<<<< HEAD:stylepage.css
 /* Header - JV */
-=======
-/**/
->>>>>>> 04b86f1b01b6bf4702a1563d849f452966a5a4e2:style.css
 header {
   background-color: #9a3412; 
   color: #ffffff;
@@ -55,7 +52,6 @@ header .subtitle {
   margin: 1rem auto 0 auto;
 }
 
-
 nav {
   background-color: #431407; 
   text-align: center;
@@ -76,21 +72,14 @@ nav a:hover {
   text-decoration: underline;
 }
 
-<<<<<<< HEAD:stylepage.css
 /* Main Container - JV */
-=======
-
->>>>>>> 04b86f1b01b6bf4702a1563d849f452966a5a4e2:style.css
 main {
   max-width: 900px;
   margin: 2rem auto;
   padding: 0 1.5rem;
 }
 
-<<<<<<< HEAD:stylepage.css
 /* Sections & Cards - JV */
-=======
->>>>>>> 04b86f1b01b6bf4702a1563d849f452966a5a4e2:style.css
 section {
   background-color: #ffffff;
   border-radius: 8px;
@@ -150,7 +139,6 @@ li {
   }
 }
 
-
 .resource-box {
   background-color: #f1f5f9;
   border-left: 4px solid #fb923c; 
@@ -185,7 +173,6 @@ a:hover {
   text-decoration: none;
 }
 
-
 footer {
   text-align: center;
   padding: 1.5rem;
@@ -213,11 +200,13 @@ footer {
 }
 
 .image-gallery img {
-  width: 45%; 
+  width: 22%; /* Reduced width to make the gallery images smaller and fit nicely in a row */
+  min-width: 100px;
   aspect-ratio: 1 / 1;
   object-fit: contain;
   border-radius: 8px;
 }
+
 /* Author Profile Card Styling for Patricia Hill Collins - JV */
 .author-pic {
   width: 120px;
@@ -228,6 +217,7 @@ footer {
   display: block;
   margin: 0 auto 1rem auto;
 }
+
 /* Side-by-side alignment on larger displays - JV */
 @media (min-width: 600px) {
   .author-card {
