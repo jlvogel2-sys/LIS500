@@ -42,10 +42,10 @@ header .subtitle {
 }
 
 /* centered circular image with boarder on the welcome page. object-fit: cover prevents image stretching inside the circular frame. JV */
-
+/* Shrunk logo size to reduce header height. -PR */
 .circle-logo {
-  width: 400px;
-  height: 400px;
+  width: 150px;
+  height: 150px;
   border-radius: 75%;
   object-fit: cover;
   border: 4px solid #ffedd5;
