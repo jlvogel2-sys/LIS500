@@ -252,3 +252,12 @@ footer {
   width: 100%;
   height: 100%;
 }
+/* this is for my tech hero, abstract image of a mouse. centers margins below image
+keeps the image proportions original no matter the screen size and centers the image. -JV. 
+.hero-image.mouse-image {
+  display: block;      
+  max-width: 300px;
+  width: 100%;         
+  height: auto;      
+  margin: 1.5rem auto; 
+}
