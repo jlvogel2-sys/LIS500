@@ -79,9 +79,13 @@
     <!-- This is my tech hero Dr. Timnit Gebrus section. using the premade class "hero-image im able to replicate the same style profile picture. 
     I used a new section tag to separate Gebru from Abebes section. This helps sreen readers at is visually separates the two profiles -JV-->
  
-    <section>
+<section>
       <h2>Josie's Tech Hero: Dr. Timnit Gebru</h2>
-     <img src="Timnit.jpeg" alt="Picture of Dr. Timnit Gebru" class="hero-image">
+     <!-- profile-layout puts the image and text side by side using flexbox -->
+     <div class="profile-layout">
+       <img src="Timnit.jpeg" alt="Picture of Dr. Timnit Gebru" class="hero-image profile-image">
+
+       <div class="profile-text">
  <!-- Split her bio into three paragraphs instead of one long block so it is easier to read. - JV-->
       <p>
         For My Tech Hero I chose Dr. Timnit Gebru. She is a researcher and computer scientist who has challenged the ethics of powerful tech industries and who values the impacts of AI of marginalized communities. 
@@ -98,13 +102,9 @@
       <p>
         Recently her research looks at how the entire supply chain of AI affects humans. She is looking at how tech companies often hide the exploited labor behind AI. She advocates for the data labelers and content moderators doing painful, underpaid work, and even exposes new forms of forced labor where "zombie trainers" generate AI data without their knowledge.
       </p>
-<!-- Illustration from Better Images of AI, with credit. I used a figure tag with a figcaption because it is the semantic 
-      way to connect an image to its caption, and it makes sure the artists get credit for their work. The "mouse-image" 
-      class is added next to "hero-image" so it keeps the same rounded style but is displayed smaller, so it does not 
-      take over the section. The credit link opens in a new tab with target="_blank" like the rest of the links on the page.
-      -->
-      <img src="mouse.jpeg" alt="Illustration from Better Images of AI" class="hero-image mouse-image">
-    </section>
+       </div>
+     </div>
+  </section>
    
     <section>
       <h2>Watch Dr. Gebru in Action</h2>
