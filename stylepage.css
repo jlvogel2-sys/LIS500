@@ -253,22 +253,26 @@ footer {
   height: 100%;
 }
 
-img.hero-image[src="timnit.jpeg"] {
+/* Floats the portrait to the left so the paragraphs wrap around it. Extra class name makes this
+   override the general .hero-image rule. Change the width to make the image bigger or smaller. - JV */
+.hero-image.profile-image {
   float: left;
   width: 250px;
   max-width: 40%;
-  height: auto;                    
-  margin: 0.25rem 1.5rem 1rem 0;   
+  height: auto;             
+  margin: 0.25rem 1.5rem 1rem 0;  
 }
 
-/* Makes her section contain the floated image so it doesn't spill into the content below - JV */
-section:has(img.hero-image[src="timnit.jpeg"]) {
-  display: flow-root;
+/* Makes the section contain its floated image so it doesn't spill into the content below - JV */
+.profile-wrap::after {
+  content: "";
+  display: block;
+  clear: both;
 }
 
 /* On phones and small screens, stop wrapping and center the image above the text - JV */
 @media (max-width: 600px) {
-  img.hero-image[src="timnit.jpeg"] {
+  .hero-image.profile-image {
     float: none;
     display: block;
     margin: 0 auto 1rem;
