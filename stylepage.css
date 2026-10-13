@@ -253,7 +253,7 @@ footer {
   height: 100%;
 }
 
-img.hero-image[src="Timnit.jpeg"] {
+img.hero-image[src="timnit.jpeg"] {
   float: left;
   width: 250px;
   max-width: 40%;
@@ -262,13 +262,13 @@ img.hero-image[src="Timnit.jpeg"] {
 }
 
 /* Makes her section contain the floated image so it doesn't spill into the content below - JV */
-section:has(img.hero-image[src="Timnit.jpeg"]) {
+section:has(img.hero-image[src="timnit.jpeg"]) {
   display: flow-root;
 }
 
 /* On phones and small screens, stop wrapping and center the image above the text - JV */
 @media (max-width: 600px) {
-  img.hero-image[src="Timnit.jpeg"] {
+  img.hero-image[src="timnit.jpeg"] {
     float: none;
     display: block;
     margin: 0 auto 1rem;
