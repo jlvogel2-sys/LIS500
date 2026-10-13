@@ -253,32 +253,25 @@ footer {
   height: 100%;
 }
 
-/* Puts the image and the text side by side for my pic of timnit - JV*/
-.profile-layout {
-  display: flex;
-  align-items: flex-start;  
-  gap: 1.5rem;              
-}
-/* Makes the portrait smaller. The extra class name makes this override the general .hero-image rule - JV */
-.hero-image.profile-image {
-  width: 250px;            
-  max-width: 35%;
-  height: auto;            
-  flex-shrink: 0;      
-}
-/* Lets the text take up the rest of the row */
-.profile-text {
-  flex: 1;
+img.hero-image[src="Timnit.jpeg"] {
+  float: left;
+  width: 250px;
+  max-width: 40%;
+  height: auto;                    
+  margin: 0.25rem 1.5rem 1rem 0;   
 }
 
-/* On phones and small screens, stack the image above the text so nothing gets cramped - JV*/
-@media (max-width: 700px) {
-  .profile-layout {
-    flex-direction: column;
-    align-items: center;
-  }
+/* Makes her section contain the floated image so it doesn't spill into the content below - JV */
+section:has(img.hero-image[src="Timnit.jpeg"]) {
+  display: flow-root;
+}
 
-  .hero-image.profile-image {
+/* On phones and small screens, stop wrapping and center the image above the text - JV */
+@media (max-width: 600px) {
+  img.hero-image[src="Timnit.jpeg"] {
+    float: none;
+    display: block;
+    margin: 0 auto 1rem;
     max-width: 70%;
   }
 }
