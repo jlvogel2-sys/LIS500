@@ -279,3 +279,32 @@ footer {
     max-width: 70%;
   }
 }
+
+.highlight-text {
+  color: #ea580c;
+  font-weight: bold;
+}
+
+.cta-container {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+/* Centers the p5.js Teachable Machine canvas and styles it to match our site theme - PR */
+.canvas-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1.5rem auto;
+  max-width: 100%;
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.canvas-wrapper canvas {
+  max-width: 100%;
+  height: auto !important;
+  border-radius: 8px;
+  border: 3px solid #fb923c;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15);
+}
