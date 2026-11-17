@@ -290,7 +290,6 @@ footer {
   margin-top: 2rem;
 }
 
-/* Centers the p5.js Teachable Machine canvas and styles it to match our site theme - PR */
 .canvas-wrapper {
   display: flex;
   justify-content: center;

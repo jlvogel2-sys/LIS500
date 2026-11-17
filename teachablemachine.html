@@ -6,23 +6,13 @@
   <title>Teachable Machine</title>
   <link rel="stylesheet" href="stylepage.css">
   
-  <!-- 
-  We included the p5.js and ml5.js libraries here in the head section so our sound classification 
-  algorithm can run directly inside the browser. Using these external libraries allows us to build 
-  an interactive visualization canvas that listens to microphone input and displays the predicted 
-  audio label in real time without relying on inline styling. - PR 
-  -->
+  <!-- Included the p5.js and ml5.js libraries so our algorithm can run  inside the browser. Using these libraries allows us to build an interactive canvas that listens to input and shows the predicted label. - PR -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.0/p5.min.js"></script>
   <script src="https://unpkg.com/ml5@0.12.2/dist/ml5.min.js"></script>
 </head>
 <body>
 
-  <!-- 
-  We kept the header and navigation bar consistent with our previous pages (index, about, resource, 
-  and techhero) to ensure a cohesive user experience and accessible site-wide navigation. Adding 
-  the 'Machine Learning' link across all five HTML files connects Project 3 seamlessly into our 
-  existing site architecture. - PR 
-  -->
+  <!-- Kept the same header and nav bar layout from our other pages so the site stays consistent. - PR -->
   <header>
     <h1>Teachable Machine Audio Classifier</h1>
   </header>
@@ -36,11 +26,6 @@
   </nav>
 
   <main>
-    <!-- 
-    Following the example project structure, we added a Project Scope and Process section at the top 
-    to clearly outline our classification categories, total audio samples (300+ original recordings), 
-    and a screenshot of our Google Teachable Machine training interface. - PR
-    -->
     <section>
       <h2>Project Objective &amp; Scope</h2>
       <p>
@@ -53,7 +38,6 @@
         <li><strong>Audio Samples:</strong> Over 300 original sound samples</li>
       </ul>
       
-      <!-- Screenshot of Teachable Machine training interface -->
       <img src="tm-screenshot.png" alt="Screenshot of our Teachable Machine training interface" class="hero-image">
     </section>
 
@@ -70,18 +54,13 @@
       </p>
     </section>
 
-    <!-- 
-    This section holds our live p5.js canvas ("Try the Model") and links to our original 300-sample 
-    audio dataset and GitHub repository. We created a dedicated 'canvas-wrapper' class in stylepage.css 
-    to center the interactive sketch without using any inline HTML styles. - PR 
-    -->
+    <!-- This section holds the live p5.js canvas and links to our dataset and GitHub.- PR -->
     <section>
       <h2>Try the Model</h2>
       <p>
         Allow microphone access in your browser to test our audio model below:
       </p>
       
-      <!-- The classification box attaches here-->
       <div id="canvas-container" class="canvas-wrapper"></div>
       
       <div class="resource-box">
@@ -103,10 +82,7 @@
       </div>
     </section>
 
-    <!-- 
-    embedded video showing our algorithm at work. We reused the '.video-container' class 
-    from stylepage.css so the video fits cleanly inside the section. - PR
-    -->
+    <!-- embedded video showing our algorithm at work. We reused the .video-container class. - PR-->
     <section>
       <h2>Algorithm at Work</h2>
       <div class="video-container">
@@ -114,11 +90,6 @@
       </div>
     </section>
 
-    <!-- 
-    For our 1,000+ word project statement, we organized our reflection using semantic h3 subheadings 
-    for each team member so each person's reflection on producing the algorithm and lessons from 
-    Joy Buolamwini's 'Unmasking AI' is clearly presented. - PR
-    -->
     <section>
       <h2>Project Statements</h2>
       
