@@ -1,5 +1,5 @@
 let classifier;
-let label = "listening...";
+let label = "Allow mic permission";
 
 let soundModel = "https://teachablemachine.withgoogle.com/models/vp7PlP569/";
 
