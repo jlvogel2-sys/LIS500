@@ -1,7 +1,7 @@
 let classifier;
 let label = "listening...";
 
-let soundModel = "";
+let soundModel = "https://teachablemachine.withgoogle.com/models/vp7PlP569/";
 
 function preload() {
   classifier = ml5.soundClassifier(soundModel + "model.json");
