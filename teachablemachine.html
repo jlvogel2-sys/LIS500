@@ -42,7 +42,7 @@
     and a screenshot of our Google Teachable Machine training interface. - PR
     -->
     <section>
-      <h2>Project Objectives &amp; Scope</h2>
+      <h2>Project Objective &amp; Scope</h2>
       <p>
         <strong>Objective:</strong> Create an audio classification algorithm using Google's Teachable Machine, 
         and reflect on Joy Buolamwini's <em>Unmasking AI</em> alongside our machine learning experiment.
@@ -60,7 +60,13 @@
     <section>
       <h2>Process</h2>
       <p>
-        
+        To create our audio dataset, our three person team collected 300 original sound samples across three spoken classes ("Yes", "No", and "Maybe") divided evenly. We also had to include a continuous class for "Background Noise." Google's Teachable Machine requires audio training data to be split 1-second intervals, so each group member recorded at around 34 samples per word within a Teachable Machine audio project and exported their class recordings as .zip files to merge into our main model.
+      </p>
+      <p>
+        During data collection, we varied our vocal delivery by giving different tones and pitches. We also made sure to include a diverse group of people so we can train our model on a variety of voices.
+      </p>
+      <p>
+        Some possible issues include participants not being able to keep a consistent cadence throughout their recording. This could lead to one sample having the word cut off mid sample or another sample containing little to no audio data. As we collected more data, we tried to use the visual cues that Teachable Machines gives to pace participants. Another potential issue we tried to account for was the fact that most of the data would be collected in different types of rooms. We tried our best to keep the room silent, but factors like design could make some audio echo more than others.
       </p>
     </section>
 
@@ -72,14 +78,14 @@
     <section>
       <h2>Try the Model</h2>
       <p>
-        Allow microphone access in your browser popup to test our live audio model below:
+        Allow microphone access in your browser to test our audio model below:
       </p>
       
       <!-- The classification box attaches here-->
       <div id="canvas-container" class="canvas-wrapper"></div>
       
       <div class="resource-box">
-        <h3>Project Code &amp; Original Data Corpus</h3>
+        <h3>Project Code &amp; Data</h3>
         <ul>
           <li>
             <strong>GitHub Repository:</strong> 
@@ -102,7 +108,7 @@
     from stylepage.css so the video fits cleanly inside the section. - PR
     -->
     <section>
-      <h2>Video: Algorithm at Work</h2>
+      <h2>Algorithm at Work</h2>
       <div class="video-container">
         <iframe src="https://www.youtube.com/embed/SP25R7z_ZSw" title="Audio Classifier Demo" allowfullscreen></iframe>
       </div>
