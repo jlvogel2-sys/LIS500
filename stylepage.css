@@ -307,3 +307,30 @@ footer {
   border: 3px solid #fb923c;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15);
 }
+
+.try-box {
+  margin: 2rem 0;
+  padding: 2rem 3rem;
+  background: linear-gradient(135deg, #edf3f1, #f3f7f6);
+  border: 1px solid #d3e2de;
+  border-radius: 20px;
+  color: #1f3436;
+}
+
+.try-box h3 {
+  margin: 0 0 1.25rem;
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #1f3436;
+}
+
+.try-list {
+  margin: 0;
+  padding-left: 1.5rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.1rem 4rem;
+  font-size: 1.05rem;
+  line-height: 1.5;
+}
+
